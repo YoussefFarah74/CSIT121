@@ -1,0 +1,47 @@
+body {
+  width: 500px;
+  height: 1400px;
+  margin: 0 auto;
+  }
+  
+  h1 {
+  position: absolute;
+  background: lime;
+  top: 10px;
+  right: 30px;
+}
+  
+  p {
+    color: #666;
+  }
+  
+  .ingredients {
+    margin: 20px 0;
+  }
+  
+  .ingredients li {
+    list-style-type: square;
+  }
+  
+  .directions {
+    margin: 20px 0;
+  }
+  
+  .directions ol {
+    list-style-type: decimal;
+  }
+  
+  .image {
+    text-align: center;
+  }
+  
+  .image img {
+    border: 1px solid #ccc;
+    max-width: 400px;
+    height: 200px;
+  }
+
+.positioned {
+  position: static;
+  background: yellow;
+}
