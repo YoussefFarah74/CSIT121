@@ -1,13 +1,18 @@
 body {
-    background-color: #f9f9f9;
-    font-family: Arial, sans-serif;
-    margin: 0;
+    body {
+  width: 500px;
+  height: 1400px;
+  margin: 0 auto;
   }
   
   h1 {
-    text-transform: uppercase;
-    color: #333;
-  }
+  position: fixed;
+  top: 0;
+  width: 500px;
+  margin-top: 0;
+  background: white;
+  padding: 10px;
+}
   
   p {
     color: #666;
@@ -38,3 +43,8 @@ body {
     max-width: 400px;
     height: 200px;
   }
+
+.positioned {
+  position: static;
+  background: yellow;
+}
