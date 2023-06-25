@@ -1,0 +1,78 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+  padding-right: 50px;
+  padding-left: 50px;
+  background-color: #d3e5ff;
+}
+.header {
+  background-image: url("images/soup.jpg");
+  background-size: auto;
+  background-position: center;
+  height: 70vh;
+  background-repeat: no-repeat;
+  margin: 0 auto;
+}
+h1 {
+  text-align: center;
+}
+
+h2 {
+  text-align: center;
+  font-style: italic;
+  margin-bottom: 20px;
+}
+.ingredients_container {
+  display: flex;
+  gap: 5%;
+}
+.ingredients_container div:first-child {
+  flex: 2.7;
+}
+.ingredients_container div:last-child {
+  flex: 8.3;
+}
+.ingredients_container img {
+  max-width: 90%;
+}
+h3 {
+  margin-top: 30px;
+  margin-bottom: 10px;
+  color: blue;
+  text-transform: uppercase;
+}
+ul {
+  line-height: 49px;
+}
+ul,
+ol {
+  margin: 0;
+  padding-left: 20px;
+}
+
+li {
+  margin-bottom: 5px;
+}
+
+p {
+  margin-bottom: 20px;
+}
+
+a {
+  display: block;
+  text-align: center;
+  margin-top: 20px;
+  width: 25%;
+  margin: auto;
+  text-decoration: none;
+  color: #000;
+  background-color: #f0f0f0;
+  padding: 10px;
+  border-radius: 5px;
+  text-transform: uppercase;
+  transition: background-color 0.3s ease;
+}
+
+a:hover {
+  background-color: #ccc;
+}
