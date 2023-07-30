@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>XML and JavaScript</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+        <div class="container">
+
+    <h1>XML and JavaScript</h1>
+
+    <dl>
+        <dt>1. What is XML?</dt>
+        <dd>
+            XML stands for Extensible Markup Language. It is a markup language that defines a set of rules for encoding documents in a format that is both human-readable and machine-readable. XML is widely used for representing and exchanging structured data between different systems, making it an essential technology for data storage and communication.
+        </dd>
+
+        <dt>2. How is XML used?</dt>
+        <dd>
+            XML is used in various scenarios, such as:
+            <ul>
+                <li>Storing and organizing data in a structured way.</li>
+                <li>Exchanging data between different platforms and applications.</li>
+                <li>Configuring settings and preferences for software applications.</li>
+                <li>Representing documents with hierarchical data.</li>
+            </ul>
+        </dd>
+
+        <dt>3. What does XML look like? (Example)</dt>
+        <dd>
+            Example of an XML document:
+            <pre>
+&lt;person&gt;
+    &lt;name&gt;Youssef Farh&lt;/name&gt;
+    &lt;age&gt;23&lt;/age&gt;
+    &lt;email&gt;youssef@example.com&lt;/email&gt;
+&lt;/person&gt;
+            </pre>
+        </dd>
+
+        <dt>4. What is JavaScript?</dt>
+        <dd>
+            JavaScript is a high-level, interpreted programming language that allows you to add interactivity, dynamic effects, and behavior to web pages. It is widely used for client-side web development and can be integrated with HTML and CSS to create powerful and interactive web applications.
+        </dd>
+
+        <dt>5. How is JavaScript related to HTML and CSS?</dt>
+        <dd>
+            HTML is responsible for defining the structure and content of a web page, while CSS is used for styling the page's layout and appearance. JavaScript, on the other hand, enables you to add functionality and interactivity to the page. It can interact with the HTML and CSS elements to manipulate the page dynamically, handle user actions, and perform various operations.
+        </dd>
+
+        <dt>6. Common JavaScript elements, properties, methods, and functions (Example)</dt>
+    <dd>
+     <pre>
+&lt;script&gt;
+  // Function example
+  function greetUser() {
+    let greeting = 'Hello, ';
+    let name = document.getElementById('username').value;
+    let message = greeting + name;
+    alert(message); // Display greeting in a popup window
+  }
+&lt;/script&gt;
+
+&lt;label for="username"&gt;Enter your name:&lt;/label&gt;
+&lt;input type="text" id="username"&gt;
+&lt;button onclick="greetUser()"&gt;Greet&lt;/button&gt;
+      </pre>
+
+    </dd>
+    </dl>
+        </div>
+</body>
+</html>
