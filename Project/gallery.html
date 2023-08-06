@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gallery</title>
+
+    <!-- font awesome cdn link  -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    />
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="css/style.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css"
+    />
+
+    <!-- custom js file link  -->
+    <script src="js/script.js" defer></script>
+  </head>
+  <body>
+    <!-- header section starts  -->
+
+    <header class="header">
+      <div id="menu-btn" class="fas fa-bars"></div>
+
+      <a data-aos="zoom-in-left" data-aos-delay="150" href="/" class="logo">
+        <i class="fas fa-paper-plane"></i>travel
+      </a>
+
+      <nav class="navbar">
+        <a data-aos="zoom-in-left" data-aos-delay="300" href="/">home</a>
+        <a data-aos="zoom-in-left" data-aos-delay="450" href="/about.html"
+          >about</a
+        >
+        <!-- Dropdown Menu -->
+        <div class="dropdown whereToGo">
+          <button
+            class="dropbtn"
+            data-aos="zoom-in-left"
+            data-aos-delay="600"
+            onclick="toggleDropdown('whereToGo')"
+          >
+            where To Go <i class="fas fa-chevron-down"></i>
+          </button>
+          <div class="dropdown-content" id="whereToGoDropdown">
+            <a href="/wheretogo.html#nile">The Nile</a>
+            <a href="/wheretogo.html#redSea">Red sea</a>
+            <a href="/wheretogo.html#desert">Desert</a>
+          </div>
+        </div>
+
+        <!-- End Dropdown Menu -->
+
+        <a data-aos="zoom-in-left" data-aos-delay="900" href="/gallery.html"
+          >gallery</a
+        >
+        <!-- Dropdown Menu -->
+        <div class="dropdown">
+          <button
+            class="dropbtn whatToDo"
+            data-aos="zoom-in-left"
+            data-aos-delay="600"
+            onclick="toggleDropdown('whatToDo')"
+          >
+            what To Do <i class="fas fa-chevron-down"></i>
+          </button>
+          <div class="dropdown-content" id="whatToDoDropdown">
+            <a href="/whatToDo.html#sun">Sun And Sea</a>
+            <a href="/whatToDo.html#cultural">Cultural And Historical Sites</a>
+            <a href="/whatToDo.html#fun">fun</a>
+          </div>
+        </div>
+
+        <!-- End Dropdown Menu -->
+        <a data-aos="zoom-in-left" data-aos-delay="750" href="/services.html"
+          >services</a
+        >
+      </nav>
+    </header>
+
+    <!-- header section ends -->
+
+    <!-- gallery section starts  -->
+
+    <section class="gallery" id="gallery">
+      <div class="heading">
+        <span>our gallery</span>
+        <h1>we record memories</h1>
+      </div>
+
+      <div class="box-container">
+        <div class="box" data-aos="zoom-in-up" data-aos-delay="150">
+          <img src="images/hatshibsut.png" alt="" />
+          <span>Deir el-Bahari temple</span>
+          <h3>Luxor</h3>
+        </div>
+
+        <div class="box" data-aos="zoom-in-up" data-aos-delay="300">
+          <img src="images/hurghada.png" alt="" />
+          <span>Red Sea</span>
+          <h3>Hurghada</h3>
+        </div>
+
+        <div class="box" data-aos="zoom-in-up" data-aos-delay="450">
+          <img src="images/karnaktemplate.png" alt="" />
+          <span>karnak temple</span>
+          <h3>Luxor</h3>
+        </div>
+
+        <div class="box" data-aos="zoom-in-up" data-aos-delay="150">
+          <img src="images/cc.jpg" alt="" />
+          <span>Citadel of Saladin</span>
+          <h3>Cairo</h3>
+        </div>
+
+        <div class="box" data-aos="zoom-in-up" data-aos-delay="300">
+          <img src="images/shar.jpg" alt="" />
+          <span>Red Sea</span>
+          <h3>Sharm Elsheikh</h3>
+        </div>
+
+        <div class="box" data-aos="zoom-in-up" data-aos-delay="450">
+          <img src="images/nilecruise.jpg" alt="" />
+          <span>Nile Cruise</span>
+          <h3>Nile Valley</h3>
+        </div>
+
+        <div class="box" data-aos="zoom-in-up" data-aos-delay="150">
+          <img src="images/mapalace.jpeg" alt="" />
+          <span>Mohamed Ali Palace</span>
+          <h3>Qalyubia</h3>
+        </div>
+
+        <div class="box" data-aos="zoom-in-up" data-aos-delay="300">
+          <img src="images/the-church-from-the-outside.jpg" alt="" />
+          <span>The Hanging Church</span>
+          <h3>Cairo</h3>
+        </div>
+
+        <div class="box" data-aos="zoom-in-up" data-aos-delay="450">
+          <img src="images/katharinenkloster.jpg" alt="" />
+          <span>Saint Catherine Monastery</span>
+          <h3>South Sinai</h3>
+        </div>
+      </div>
+    </section>
+
+    <!-- gallery section ends -->
+  </body>
+  <footer>
+    <div class="credit">
+      created by <span>Youssef Farah</span> | all rights reserved!
+    </div>
+  </footer>
+
+  <!-- footer section ends -->
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+
+  <script>
+    AOS.init({
+      duration: 800,
+      offset: 150,
+    });
+  </script>
+</html>

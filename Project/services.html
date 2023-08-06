@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Services</title>
+
+    <!-- font awesome cdn link  -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    />
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="css/style.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css"
+    />
+
+    <!-- custom js file link  -->
+    <script src="js/script.js" defer></script>
+  </head>
+  <body>
+    <!-- header section starts  -->
+
+    <header class="header">
+      <div id="menu-btn" class="fas fa-bars"></div>
+
+      <a data-aos="zoom-in-left" data-aos-delay="150" href="/" class="logo">
+        <i class="fas fa-paper-plane"></i>travel
+      </a>
+
+      <nav class="navbar">
+        <a data-aos="zoom-in-left" data-aos-delay="300" href="/">home</a>
+        <a data-aos="zoom-in-left" data-aos-delay="450" href="/about.html"
+          >about</a
+        >
+        <!-- Dropdown Menu -->
+        <div class="dropdown whereToGo">
+          <button
+            class="dropbtn"
+            data-aos="zoom-in-left"
+            data-aos-delay="600"
+            onclick="toggleDropdown('whereToGo')"
+          >
+            where To Go <i class="fas fa-chevron-down"></i>
+          </button>
+          <div class="dropdown-content" id="whereToGoDropdown">
+            <a href="/wheretogo.html#nile">The Nile</a>
+            <a href="/wheretogo.html#redSea">Red sea</a>
+            <a href="/wheretogo.html#desert">Desert</a>
+          </div>
+        </div>
+
+        <!-- End Dropdown Menu -->
+
+        <a data-aos="zoom-in-left" data-aos-delay="900" href="/gallery.html"
+          >gallery</a
+        >
+        <!-- Dropdown Menu -->
+        <div class="dropdown">
+          <button
+            class="dropbtn whatToDo"
+            data-aos="zoom-in-left"
+            data-aos-delay="600"
+            onclick="toggleDropdown('whatToDo')"
+          >
+            what To Do <i class="fas fa-chevron-down"></i>
+          </button>
+          <div class="dropdown-content" id="whatToDoDropdown">
+            <a href="/whatToDo.html#sun">Sun And Sea</a>
+            <a href="/whatToDo.html#cultural">Cultural And Historical Sites</a>
+            <a href="/whatToDo.html#fun">fun</a>
+          </div>
+        </div>
+
+        <!-- End Dropdown Menu -->
+        <a data-aos="zoom-in-left" data-aos-delay="750" href="/services.html"
+          >services</a
+        >
+      </nav>
+    </header>
+    <!-- header section ends -->
+
+    <!-- services section starts  -->
+    <section class="services" id="services">
+      <div class="heading">
+        <span>our services</span>
+        <h1>countless experiences</h1>
+      </div>
+
+      <div class="box-container">
+        <div class="box" data-aos="zoom-in-up" data-aos-delay="150">
+          <i class="fas fa-globe"></i>
+          <h3>All Over Egypt Travel</h3>
+          <p>
+            Explore a wide selection of travel destinations around Egypt,
+            including Egypt's most captivating sites.
+          </p>
+        </div>
+
+        <div class="box" data-aos="zoom-in-up" data-aos-delay="300">
+          <i class="fas fa-hiking"></i>
+          <h3>Adventure Tours</h3>
+          <p>
+            Embark on thrilling adventure tours, from desert safaris to diving
+            in the Red Sea, all tailored for adrenaline seekers.
+          </p>
+        </div>
+
+        <div class="box" data-aos="zoom-in-up" data-aos-delay="450">
+          <i class="fas fa-utensils"></i>
+          <h3>Culinary Delights</h3>
+          <p>
+            Discover the rich flavors of Egypt with our culinary tours,
+            exploring traditional dishes and hidden gems.
+          </p>
+        </div>
+
+        <div class="box" data-aos="zoom-in-up" data-aos-delay="600">
+          <i class="fas fa-hotel"></i>
+          <h3>Accommodation</h3>
+          <p>
+            Find the perfect accommodation options for your stay in Egypt,
+            ranging from luxury hotels to cozy guesthouses.
+          </p>
+        </div>
+
+        <div class="box" data-aos="zoom-in-up" data-aos-delay="750">
+          <i class="fas fa-wallet"></i>
+          <h3>Competitive Prices</h3>
+          <p>
+            Enjoy competitive prices on all our services, ensuring you get the
+            best value for your travel budget.
+          </p>
+        </div>
+
+        <div class="box" data-aos="zoom-in-up" data-aos-delay="900">
+          <i class="fas fa-headset"></i>
+          <h3>24/7 Support</h3>
+          <p>
+            Our dedicated support team is available 24/7 to assist you with any
+            inquiries or travel-related issues.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- services section ends -->
+  </body>
+  <footer>
+    <div class="credit">
+      created by <span>Youssef Farah</span> | all rights reserved!
+    </div>
+  </footer>
+
+  <!-- footer section ends -->
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+
+  <script>
+    AOS.init({
+      duration: 800,
+      offset: 150,
+    });
+  </script>
+</html>

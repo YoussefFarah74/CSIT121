@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Egypt Tourism Gate</title>
+
+    <!-- font awesome cdn link  -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    />
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="css/style.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css"
+    />
+
+    <!-- custom js file link  -->
+    <script src="js/script.js" defer></script>
+  </head>
+  <body>
+    <!-- header section starts  -->
+
+    <header class="header">
+      <div id="menu-btn" class="fas fa-bars"></div>
+
+      <a data-aos="zoom-in-left" data-aos-delay="150" href="/" class="logo">
+        <i class="fas fa-paper-plane"></i>travel
+      </a>
+
+      <nav class="navbar">
+        <a data-aos="zoom-in-left" data-aos-delay="300" href="/">home</a>
+        <a data-aos="zoom-in-left" data-aos-delay="450" href="/about.html"
+          >about</a
+        >
+        <!-- Dropdown Menu -->
+        <div class="dropdown whereToGo">
+          <button
+            class="dropbtn"
+            data-aos="zoom-in-left"
+            data-aos-delay="600"
+            onclick="toggleDropdown('whereToGo')"
+          >
+            where To Go <i class="fas fa-chevron-down"></i>
+          </button>
+          <div class="dropdown-content" id="whereToGoDropdown">
+            <a href="/wheretogo.html#nile">The Nile</a>
+            <a href="/wheretogo.html#redSea">Red sea</a>
+            <a href="/wheretogo.html#desert">Desert</a>
+          </div>
+        </div>
+
+        <!-- End Dropdown Menu -->
+
+        <a data-aos="zoom-in-left" data-aos-delay="900" href="/gallery.html"
+          >gallery</a
+        >
+        <!-- Dropdown Menu -->
+        <div class="dropdown">
+          <button
+            class="dropbtn whatToDo"
+            data-aos="zoom-in-left"
+            data-aos-delay="600"
+            onclick="toggleDropdown('whatToDo')"
+          >
+            what To Do <i class="fas fa-chevron-down"></i>
+          </button>
+          <div class="dropdown-content" id="whatToDoDropdown">
+            <a href="/whatToDo.html#sun">Sun And Sea</a>
+            <a href="/whatToDo.html#cultural">Cultural And Historical Sites</a>
+            <a href="/whatToDo.html#fun">fun</a>
+          </div>
+        </div>
+
+        <!-- End Dropdown Menu -->
+        <a data-aos="zoom-in-left" data-aos-delay="750" href="/services.html"
+          >services</a
+        >
+      </nav>
+    </header>
+
+    <!-- header section ends -->
+
+    <!-- home section starts  -->
+
+    <section class="home" id="home">
+      <div class="content">
+        <span data-aos="fade-up" data-aos-delay="150">Explore</span>
+        <h3 data-aos="fade-up" data-aos-delay="300">THE WONDERS OF EGYPT</h3>
+        <p data-aos="fade-up" data-aos-delay="450">
+          Explore the wonders of Egypt and witness the marvels of this ancient
+          land. From the iconic Pyramids of Giza to the mystical temples along
+          the Nile, experience a world steeped in history and mythology...
+        </p>
+      </div>
+    </section>
+
+    <!-- home section ends -->
+
+    <!-- booking form section starts  -->
+
+    <section class="book-form" id="book-form">
+      <form action="">
+        <div data-aos="zoom-in" data-aos-delay="150" class="inputBox">
+          <span>where to?</span>
+          <input type="text" placeholder="place name" value="" />
+        </div>
+        <div data-aos="zoom-in" data-aos-delay="300" class="inputBox">
+          <span>when?</span>
+          <input type="date" value="" />
+        </div>
+        <div data-aos="zoom-in" data-aos-delay="450" class="inputBox">
+          <span>how many?</span>
+          <input type="number" placeholder="number of travelers" value="" />
+        </div>
+        <input
+          data-aos="zoom-in"
+          data-aos-delay="600"
+          type="submit"
+          value="find now"
+          class="btn"
+        />
+      </form>
+    </section>
+
+    <!-- booking form section ends -->
+
+    <!-- review section starts  -->
+    <section class="review">
+      <div class="content" data-aos="fade-right" data-aos-delay="300">
+        <span>Explore Egypt</span>
+        <h3>Discover the Land of Pharaohs</h3>
+        <p>
+          Egypt, a captivating destination known for its ancient history and
+          world-renowned monuments, attracts travelers from all over the globe.
+          From the majestic Pyramids of Giza to the historic temples of Luxor,
+          and the serene landscapes along the Nile River, Egypt offers a journey
+          through time and an unforgettable experience.
+        </p>
+        <p>
+          Immerse yourself in the mystery of the ancient civilization as you
+          stroll through the Sphinx-guarded pyramids and learn about the secrets
+          of the pharaohs. Marvel at the towering temples and monuments that
+          stand as a testament to Egypt's rich past.
+        </p>
+        <p>
+          Enjoy a relaxing cruise on the Nile River, taking in the picturesque
+          scenery and witnessing the daily life of locals along the riverbanks.
+          Explore the bustling bazaars and vibrant streets of Cairo, the capital
+          city, where modernity blends with history in a unique way.
+        </p>
+        <p>
+          Whether you're an avid history enthusiast or seeking a memorable
+          vacation with family and friends, Egypt offers a diverse range of
+          experiences that cater to every traveler's interests.
+        </p>
+      </div>
+
+      <div class="box-container" data-aos="fade-left" data-aos-delay="600">
+        <!-- Add the content here for reviews or testimonials about Egypt -->
+        <div class="box">
+          <p>
+            "Visiting Egypt was a dream come true! The Pyramids and the Sphinx
+            left me awe-struck. It's an incredible country with so much history
+            and beauty."
+          </p>
+          <div class="user">
+            <img src="images/pic-4.png" alt="" />
+            <div class="info">
+              <h3>Emily Johnson</h3>
+              <span>Travel Enthusiast</span>
+            </div>
+          </div>
+        </div>
+        <div class="box">
+          <p>
+            "I couldn't believe the intricate carvings in the temples of Luxor.
+            It felt like stepping back in time. Egypt is a must-visit
+            destination for history lovers."
+          </p>
+          <div class="user">
+            <img src="images/pic-3.png" alt="" />
+            <div class="info">
+              <h3>Michael Brown</h3>
+              <span>History Buff</span>
+            </div>
+          </div>
+        </div>
+        <div class="box">
+          <p>
+            "The Nile River cruise was such a serene experience. I enjoyed
+            watching the sunset while floating on the gentle waters. Egypt's
+            beauty is truly unmatched."
+          </p>
+          <div class="user">
+            <img src="images/pic-2.png" alt="" />
+            <div class="info">
+              <h3>Sophia Anderson</h3>
+              <span>Adventurer</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- review section ends -->
+
+    <!-- blogs section starts  -->
+
+    <section class="blogs" id="blogs">
+      <div class="heading">
+        <span>Explore Egypt</span>
+        <h1>Discover the Wonders of Ancient Land</h1>
+      </div>
+
+      <div class="box-container">
+        <div class="box" data-aos="fade-up" data-aos-delay="150">
+          <div class="image">
+            <img src="images/pyramids.png" alt="Egyptian Pyramids" />
+          </div>
+          <div class="content">
+            <a href="#" class="link"
+              >Unraveling the Mysteries of the Pyramids</a
+            >
+            <p>
+              Experience a captivating journey through the history of the
+              Egyptian Pyramids. Learn about their construction, significance,
+              and the enigmas that surround these ancient marvels.
+            </p>
+
+            <div class="icon">
+              <a href="#"><i class="fas fa-clock"></i> 15th July, 2023</a>
+              <a href="#"><i class="fas fa-user"></i> by Admin</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="box" data-aos="fade-up" data-aos-delay="300">
+          <div class="image">
+            <img src="images/luxor.png" alt="Luxor Temple" />
+          </div>
+          <div class="content">
+            <a href="#" class="link"
+              >Lost in Time: The Magnificence of Luxor Temple</a
+            >
+            <p>
+              Immerse yourself in the grandeur of Luxor Temple, an ancient
+              architectural masterpiece. Discover the religious and cultural
+              significance of this historical site.
+            </p>
+            <div class="icon">
+              <a href="#"><i class="fas fa-clock"></i> 2nd August, 2023</a>
+              <a href="#"><i class="fas fa-user"></i> by Admin</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="box" data-aos="fade-up" data-aos-delay="450">
+          <div class="image">
+            <img src="images/nile.png" alt="Nile River Cruise" />
+          </div>
+          <div class="content">
+            <a href="#" class="link"
+              >Sailing the Mystical Nile: A Dream Cruise</a
+            >
+            <p>
+              Embark on a breathtaking Nile River cruise and witness the serene
+              beauty of Egypt's landscapes and ancient wonders along the banks
+              of the Nile. Experience the magic of this unforgettable journey.
+            </p>
+            <div class="icon">
+              <a href="#"><i class="fas fa-clock"></i> 20th September, 2023</a>
+              <a href="#"><i class="fas fa-user"></i> by Admin</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- blogs section ends -->
+
+    <!-- banner section starts  -->
+
+    <div class="banner">
+      <div class="content" data-aos="zoom-in-up" data-aos-delay="300">
+        <span>Unlock the Treasures of Egypt</span>
+        <h3>Let's Explore This World</h3>
+        <p>
+          Experience the ancient wonders and modern marvels of Egypt, a land
+          steeped in history and rich in culture. From the iconic pyramids to
+          the enchanting Nile River, explore a journey of a lifetime.
+        </p>
+      </div>
+    </div>
+
+    <!-- banner section ends -->
+
+    <footer>
+      <div class="credit">
+        created by <span>Youssef Farah</span> | all rights reserved!
+      </div>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+
+    <script>
+      AOS.init({
+        duration: 800,
+        offset: 150,
+      });
+    </script>
+  </body>
+</html>

@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Where to go in Egypt</title>
+
+    <!-- font awesome cdn link  -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    />
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="css/style.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css"
+    />
+
+    <!-- custom js file link  -->
+    <script src="js/script.js" defer></script>
+  </head>
+
+  <body>
+    <header class="header">
+      <div id="menu-btn" class="fas fa-bars"></div>
+
+      <a data-aos="zoom-in-left" data-aos-delay="150" href="/" class="logo">
+        <i class="fas fa-paper-plane"></i>travel
+      </a>
+
+      <nav class="navbar">
+        <a data-aos="zoom-in-left" data-aos-delay="300" href="/">home</a>
+        <a data-aos="zoom-in-left" data-aos-delay="450" href="/about.html"
+          >about</a
+        >
+        <!-- Dropdown Menu -->
+        <div class="dropdown whereToGo">
+          <button
+            class="dropbtn"
+            data-aos="zoom-in-left"
+            data-aos-delay="600"
+            onclick="toggleDropdown('whereToGo')"
+          >
+            where To Go <i class="fas fa-chevron-down"></i>
+          </button>
+          <div class="dropdown-content" id="whereToGoDropdown">
+            <a href="/wheretogo.html#nile">The Nile</a>
+            <a href="/wheretogo.html#redSea">Red sea</a>
+            <a href="/wheretogo.html#desert">Desert</a>
+          </div>
+        </div>
+
+        <!-- End Dropdown Menu -->
+
+        <a data-aos="zoom-in-left" data-aos-delay="900" href="/gallery.html"
+          >gallery</a
+        >
+        <!-- Dropdown Menu -->
+        <div class="dropdown">
+          <button
+            class="dropbtn whatToDo"
+            data-aos="zoom-in-left"
+            data-aos-delay="600"
+            onclick="toggleDropdown('whatToDo')"
+          >
+            what To Do <i class="fas fa-chevron-down"></i>
+          </button>
+          <div class="dropdown-content" id="whatToDoDropdown">
+            <a href="/whatToDo.html#sun">Sun And Sea</a>
+            <a href="/whatToDo.html#cultural">Cultural And Historical Sites</a>
+            <a href="/whatToDo.html#fun">fun</a>
+          </div>
+        </div>
+
+        <!-- End Dropdown Menu -->
+        <a data-aos="zoom-in-left" data-aos-delay="750" href="/services.html"
+          >services</a
+        >
+      </nav>
+    </header>
+
+    <!-- header section ends -->
+    <!-- whereToGo section starts  -->
+
+    <section class="whereToGo">
+      <div class="container" id="nile">
+        <div class="content" data-aos="fade-right" data-aos-delay="300">
+          <span>Explore Egypt</span>
+          <h3>Nile Cruise Trip</h3>
+          <p>
+            Embark on a fascinating journey along the legendary Nile River, one
+            of the most iconic and historic waterways in the world. A Nile
+            cruise trip in Egypt offers a magical experience, taking you on a
+            voyage through time and history. Witness the breathtaking beauty of
+            the Nile Valley and immerse yourself in the captivating landscapes
+            that have enchanted travelers for centuries.
+          </p>
+          <p>
+            As you glide down the Nile, you'll have the opportunity to visit
+            some of Egypt's most famous ancient sites and marvel at the wonders
+            of Pharaonic civilization. Explore the awe-inspiring temples of
+            Luxor, including the Karnak Temple and the Luxor Temple, which stand
+            as a testament to the grandeur of ancient Egypt.
+          </p>
+          <p>
+            Sail to the enchanting city of Aswan and discover the majestic Abu
+            Simbel temples, a masterpiece of ancient engineering and
+            architecture. Enjoy the serene beauty of the Nile's landscapes,
+            where palm-fringed riverbanks and picturesque villages will leave
+            you enchanted.
+          </p>
+          <p>
+            The Nile cruise trip also offers moments of relaxation and luxury on
+            board. Indulge in delectable Egyptian cuisine and enjoy traditional
+            music and dance performances. Unwind on the deck and watch the
+            breathtaking sunset over the river.
+          </p>
+        </div>
+
+        <div class="box-container" data-aos="fade-left" data-aos-delay="600">
+          <div class="box">
+            <img src="images/nilecruise.jpg" alt="Nile Cruise Trip" />
+          </div>
+        </div>
+      </div>
+
+      <div class="container" id="desert">
+        <div class="content" data-aos="fade-right" data-aos-delay="300">
+          <span>Explore Egypt</span>
+          <h3>Exploring Egypt's Desert and Activities</h3>
+          <p>
+            Experience the breathtaking beauty of Egypt's vast desert landscapes
+            and immerse yourself in a world of adventure and wonder. The
+            Egyptian desert offers a unique and enchanting experience for
+            travelers seeking something extraordinary. Whether you're an
+            adrenaline junkie or a nature lover, the desert has something to
+            offer for everyone.
+          </p>
+
+          <p>
+            As you explore the desert, you'll encounter ancient oases that offer
+            a welcome respite from the arid surroundings. These oases are lush
+            havens with natural springs and palm trees, providing a serene
+            ambiance and a chance to relax and rejuvenate.
+          </p>
+
+          <p>
+            Whether you're captivated by the desert's beauty or seeking
+            unforgettable adventures, exploring Egypt's desert is an experience
+            like no other. It's a journey that will leave you with a sense of
+            wonder and appreciation for the natural wonders of the world.
+          </p>
+          <ul>
+            You can Experience
+            <li>Thrilling desert safaris</li>
+            <li>Sandboarding on the dunes</li>
+            <li>Quad biking adventures</li>
+            <li>Relaxing in lush oases</li>
+            <li>Magical stargazing nights</li>
+          </ul>
+        </div>
+
+        <div class="box-container" data-aos="fade-left" data-aos-delay="600">
+          <div class="box">
+            <img src="images/desert.png" alt="Exploring Egypt's Desert" />
+          </div>
+        </div>
+      </div>
+
+      <div class="container" id="redSea">
+        <div class="content" data-aos="fade-right" data-aos-delay="300">
+          <span>Explore Egypt</span>
+          <h3>Discover the Paradise of Hurghada</h3>
+          <p>
+            Hurghada, a paradise on the shores of the Red Sea, is a dream
+            destination for beach lovers and water enthusiasts. This coastal
+            city offers a unique blend of natural beauty and vibrant activities,
+            making it a popular resort town for tourists from around the world.
+          </p>
+          <p>
+            The stunning beaches of Hurghada invite you to relax on the soft
+            sands and bask in the glorious sunshine. The clear, turquoise waters
+            of the Red Sea provide excellent opportunities for snorkeling and
+            scuba diving. Dive into a world of colorful coral reefs and diverse
+            marine life, and witness the underwater wonders that make Hurghada a
+            diver's paradise.
+          </p>
+
+          <p>
+            In addition to water activities, Hurghada boasts a lively nightlife
+            scene, with bustling bars, restaurants, and clubs. Enjoy delicious
+            seafood and traditional Egyptian cuisine, and experience the warmth
+            of Egyptian hospitality.
+          </p>
+          <p>
+            Hurghada also serves as a gateway to explore the nearby Giftun
+            Islands, where you can indulge in a day trip of snorkeling,
+            swimming, and relaxation on pristine sandy beaches.
+          </p>
+        </div>
+
+        <div class="box-container" data-aos="fade-left" data-aos-delay="600">
+          <!-- Add the content here for reviews or testimonials about Hurghada -->
+          <div class="box">
+            <img src="images/hurghada.png" alt="Hurghada, Egypt" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- whereToGo section ends -->
+  </body>
+  <footer>
+    <div class="credit">
+      created by <span>Youssef Farah</span> | all rights reserved!
+    </div>
+  </footer>
+
+  <!-- footer section ends -->
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+
+  <script>
+    AOS.init({
+      duration: 800,
+      offset: 150,
+    });
+  </script>
+</html>
